@@ -14,3 +14,12 @@ This challenge is typically offered to candidates during a live technical interv
 - [Golang](https://dev.azure.com/TelstraPurple/Digital%20Intellectual%20Property/_git/RecruitmentChallenges?path=/SalesTax/Golang)
 - [Java](https://dev.azure.com/TelstraPurple/Digital%20Intellectual%20Property/_git/RecruitmentChallenges?path=/SalesTax/Java)
 - [Typescript](https://dev.azure.com/TelstraPurple/Digital%20Intellectual%20Property/_git/RecruitmentChallenges?path=/SalesTax/Typescript)
+
+---
+
+## ToyRobot
+### Description
+This challenge has no starting code, only instructions on what to implement.
+### Locations
+- [Toy Robot Puzzle](https://dev.azure.com/TelstraPurple/Digital%20Intellectual%20Property/_git/RecruitmentChallenges?path=/ToyRobot)
+
