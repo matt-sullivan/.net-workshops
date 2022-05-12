@@ -1,0 +1,17 @@
+{
+  "name": "salestax-typescript",
+  "scripts": {
+    "start": "node ./node_modules/ts-node/dist/bin.js index.ts"
+  },
+  "dependencies": {
+    "numeral": "^2.0.6",
+    "readline-sync": "^1.4.9",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.1",
+    "@types/numeral": "0.0.22",
+    "@types/readline-sync": "^1.4.3"
+  }
+}
