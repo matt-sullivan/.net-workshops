@@ -10,12 +10,9 @@ namespace SalesPrompter
 
         static void Main(string[] args)
         {
-            Sale sale;
-            string input;
-
-            sale = new Sale();
+            var sale = new Sale();
             Console.WriteLine("Enter sales in the format <qty> <description> at <unit price>\nFor example: 2 books at 13.25\nEntering a blank line completes the sale\n");
-            input = GetInput();
+            var input = GetInput();
             while (!string.IsNullOrEmpty(input))
             {
                 if (!sale.Add(input))

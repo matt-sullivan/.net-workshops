@@ -94,13 +94,10 @@ namespace SalesTax
         /// <returns>The calculated tax on the original value</returns>
         public static decimal CalculateTax(decimal value, int taxRate)
         {
-            double amount;
-            double remainder;
-
-            amount = (double)Math.Round((value * taxRate)/100,2);
+            var amount = (double)Math.Round((value * taxRate)/100,2);
 
             //Now round up to nearest 5 cents.
-            remainder = amount % .05;
+            var remainder = amount % .05;
             if (remainder > 0)
                 amount += .05 - remainder;
             return (decimal)amount;

@@ -20,13 +20,11 @@ namespace SalesTax
             int quantity;
             string productName;
             decimal price;
-            bool isImported;
-            SaleLine saleLine;
 
             if (string.IsNullOrEmpty(input))
                 return null;
-            string[] words = input.Split(' ');
-            int wordCount = words.Length;
+            var words = input.Split(' ');
+            var wordCount = words.Length;
 
             // must have at least 4 words
             if (wordCount > 4)
@@ -66,7 +64,7 @@ namespace SalesTax
                 return null;
 
             //Check if this is an imported product
-            isImported = productName.Contains("imported ");
+            var isImported = productName.Contains("imported ");
             if (isImported)
             {
                 //Ensure the word imported appears at the front of the description
@@ -74,7 +72,7 @@ namespace SalesTax
             }
 
             // create the sale line
-            saleLine = new SaleLine(quantity, productName, price, isImported);
+            var saleLine = new SaleLine(quantity, productName, price, isImported);
             return saleLine;
         }
 
