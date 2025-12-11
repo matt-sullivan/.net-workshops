@@ -1,15 +1,15 @@
+# Sales Tax
 This is a simple sales program - it takes input and produces a receipt showing sales tax and totals.
 
 The tax rules are:
-No Tax on books, medical items, food
-GST (10%) - general products
-Extra 5% - Imported products  (i.e. 15% total tax for general goods)
-Round sales tax per line to the nearest 5 cents.
+* No Tax on books, medical items, food
+* GST (10%) - general products
+* Extra 5% - Imported products  (i.e. 15% total tax for general goods)
+* Round sales tax per line to the nearest 5 cents.
 
 Your task?  To get it working :-)
-[Extra credit - move rounding from line level to sale total and including a rounding figure on the receipt]
 
-Tests & expected results:
+# Tests & expected results:
 
 Test 1:
 -------
@@ -65,7 +65,7 @@ Result:
 	Sales Taxes: 66.65
 	Total: 746.45
 
-Tets 5:
+Test 5:
 -------
 js s jss s
 
@@ -78,3 +78,6 @@ Test 6:
 
 Result:
 	A blank receipt (showing 0.00 amounts)
+
+# Extra credit
+1. Move rounding from line level to sale total and including a rounding figure on the receipt
